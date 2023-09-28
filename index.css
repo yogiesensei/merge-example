@@ -6,3 +6,51 @@ a {
 h1 {
     color: purple;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    gap: 30px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.opening-container {
+    width: 500px;
+}
+
+.title-container {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+    position: relative;
+    z-index: 100;
+    margin: 0 auto -10% auto;
+}
+
+.day-container {
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+}
+
+.ipsum {
+    width: 100px;
+    overflow: hidden;
+}
+
+.ipsum p {
+    width: 100%;
+    height: 100%;
+}
